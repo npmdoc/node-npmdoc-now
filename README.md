@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/now.png?downloads=true)](https://www.npmjs.com/package/now)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-now_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-now/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-now_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-now/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.npmPackageListing.svg)
 
