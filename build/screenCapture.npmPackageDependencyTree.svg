@@ -38,7 +38,7 @@
 <tspan x="10" y="570">  ├─┬ download@5.0.3 </tspan>
 <tspan x="10" y="586">  │ ├─┬ caw@2.0.0 </tspan>
 <tspan x="10" y="602">  │ │ ├─┬ get-proxy@1.1.0 </tspan>
-<tspan x="10" y="618">  │ │ │ └─┬ rc@1.2.0 </tspan>
+<tspan x="10" y="618">  │ │ │ └─┬ rc@1.2.1 </tspan>
 <tspan x="10" y="634">  │ │ │   ├── deep-extend@0.4.1 </tspan>
 <tspan x="10" y="650">  │ │ │   └── strip-json-comments@2.0.1 </tspan>
 <tspan x="10" y="666">  │ │ └── tunnel-agent@0.4.3 </tspan>
