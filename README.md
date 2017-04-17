@@ -1,9 +1,11 @@
-# api documentation for  [now (v4.10.3)](https://github.com/zeit/now-cli#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)
+# api documentation for  [now (v4.11.1)](https://github.com/zeit/now-cli#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)
 #### The command line interface for Now
 
-[![NPM](https://nodei.co/npm/now.png?downloads=true)](https://www.npmjs.com/package/now)
+[![NPM](https://nodei.co/npm/now.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/now)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-now_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-now/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-now/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-now/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-now/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-now/build/screenCapture.npmPackageListing.svg)
 
@@ -48,7 +50,7 @@
         "email-validator": "1.0.7",
         "fs-promise": "2.0.2",
         "glob": "7.1.1",
-        "ignore": "3.2.6",
+        "ignore": "3.2.7",
         "ini": "1.3.4",
         "inquirer": "3.0.6",
         "is-url": "1.2.2",
@@ -58,31 +60,33 @@
         "node-version": "1.0.0",
         "opn": "4.0.2",
         "ora": "1.2.0",
-        "progress": "1.1.8",
-        "psl": "1.1.17",
+        "progress": "2.0.0",
+        "psl": "1.1.18",
         "resumer": "0.0.0",
         "socket.io-client": "1.7.3",
         "split-array": "1.0.1",
         "strip-ansi": "3.0.1",
-        "stripe": "4.16.1",
+        "stripe": "4.17.1",
         "text-table": "0.2.0",
         "tmp-promise": "1.0.3",
         "update-notifier": "2.1.0"
     },
     "description": "The command line interface for Now",
     "devDependencies": {
-        "alpha-sort": "2.0.0",
-        "ava": "0.18.2",
-        "eslint-config-prettier": "1.5.0",
+        "alpha-sort": "2.0.1",
+        "ava": "0.19.1",
+        "eslint-config-prettier": "1.6.0",
         "husky": "0.13.3",
         "lint-staged": "3.4.0",
         "pkg": "3.0.0-beta.29",
-        "xo": "0.19.0"
+        "prettier": "0.22.0",
+        "slackup": "1.2.0",
+        "xo": "0.18.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "4625203927d7e42338c0462754aeca748e5d300c",
-        "tarball": "https://registry.npmjs.org/now/-/now-4.10.3.tgz"
+        "shasum": "69660a809ee89e5044309d86d49979729eb82302",
+        "tarball": "https://registry.npmjs.org/now/-/now-4.11.1.tgz"
     },
     "engines": {
         "node": ">=6.9.0"
@@ -90,7 +94,7 @@
     "files": [
         "build"
     ],
-    "gitHead": "264d6fa3c4f7dc162700766a154cfa5abcbdbd9e",
+    "gitHead": "c8d8daa334731df2162aae4fcd95cacd36016890",
     "homepage": "https://github.com/zeit/now-cli#readme",
     "license": "MIT",
     "lint-staged": {
@@ -102,24 +106,19 @@
     },
     "maintainers": [
         {
-            "name": "jamo",
-            "email": "jamo@isotalo.fi"
+            "name": "jamo"
         },
         {
-            "name": "leo",
-            "email": "leo@zeit.co"
+            "name": "leo"
         },
         {
-            "name": "matheuss",
-            "email": "me@matheus.top"
+            "name": "matheuss"
         },
         {
-            "name": "rase-",
-            "email": "tonykovanen@hotmail.com"
+            "name": "rase-"
         },
         {
-            "name": "rauchg",
-            "email": "rauchg@gmail.com"
+            "name": "rauchg"
         }
     ],
     "name": "now",
@@ -130,7 +129,6 @@
             "lib/**/*"
         ]
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zeit/now-cli.git"
@@ -143,25 +141,16 @@
         "prepublish": "npm run build",
         "test": "npm run build && npm run lint && ava"
     },
-    "version": "4.10.3",
+    "version": "4.11.1",
     "xo": {
         "ignores": [
-            "test/_fixtures/**"
+            "test/_fixtures/**",
+            "scripts/build/**"
         ],
         "extends": "prettier"
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module now](#apidoc.module.now)
-
-
-
-# <a name="apidoc.module.now"></a>[module now](#apidoc.module.now)
 
 
 
