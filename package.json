@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "now",
-    "description": "api documentation for [now (v4.11.1)](https://github.com/zeit/now-cli#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)",
+    "description": "#### basic api documentation for  [now (v4.11.2)](https://github.com/zeit/now-cli#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "now": "*",

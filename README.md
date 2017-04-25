@@ -1,4 +1,7 @@
-# api documentation for  [now (v4.11.1)](https://github.com/zeit/now-cli#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)
+# npmdoc-now
+
+#### basic api documentation for  [now (v4.11.2)](https://github.com/zeit/now-cli#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-now.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-now) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-now.svg)](https://travis-ci.org/npmdoc/node-npmdoc-now)
+
 #### The command line interface for Now
 
 [![NPM](https://nodei.co/npm/now.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/now)
@@ -34,7 +37,7 @@
         "@google/maps": "0.3.1",
         "ansi-escapes": "1.4.0",
         "ansi-regex": "2.1.1",
-        "arr-flatten": "1.0.1",
+        "arr-flatten": "1.0.2",
         "array-unique": "0.3.2",
         "async-retry": "0.3.0",
         "async-to-gen": "1.3.2",
@@ -79,14 +82,14 @@
         "husky": "0.13.3",
         "lint-staged": "3.4.0",
         "pkg": "3.0.0-beta.29",
-        "prettier": "0.22.0",
-        "slackup": "1.2.0",
+        "prettier": "1.1.0",
+        "slackup": "2.0.1",
         "xo": "0.18.1"
     },
     "directories": {},
     "dist": {
-        "shasum": "69660a809ee89e5044309d86d49979729eb82302",
-        "tarball": "https://registry.npmjs.org/now/-/now-4.11.1.tgz"
+        "shasum": "a27c4b23aa0a2aed792b01664176bb7717b1c606",
+        "tarball": "https://registry.npmjs.org/now/-/now-4.11.2.tgz"
     },
     "engines": {
         "node": ">=6.9.0"
@@ -94,7 +97,7 @@
     "files": [
         "build"
     ],
-    "gitHead": "c8d8daa334731df2162aae4fcd95cacd36016890",
+    "gitHead": "20552717321a5f5cf848e1268583159d53b5b74f",
     "homepage": "https://github.com/zeit/now-cli#readme",
     "license": "MIT",
     "lint-staged": {
@@ -141,7 +144,7 @@
         "prepublish": "npm run build",
         "test": "npm run build && npm run lint && ava"
     },
-    "version": "4.11.1",
+    "version": "4.11.2",
     "xo": {
         "ignores": [
             "test/_fixtures/**",
